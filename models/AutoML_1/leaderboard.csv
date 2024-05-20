@@ -1,0 +1,15 @@
+name,model_type,metric_type,metric_value,train_time
+1_Baseline,Baseline,logloss,0.6655582620354478,0.22
+2_DecisionTree,Decision Tree,logloss,0.8828427986084297,8.17
+3_Linear,Linear,logloss,0.4497566400638602,6.55
+4_Default_Xgboost,Xgboost,logloss,0.38380800608951837,4.0
+5_Default_NeuralNetwork,Neural Network,logloss,0.6395155551296502,3.68
+6_Default_RandomForest,Random Forest,logloss,0.36416489682412967,7.2
+6_Default_RandomForest_GoldenFeatures,Random Forest,logloss,0.359508200546635,7.47
+4_Default_Xgboost_GoldenFeatures,Xgboost,logloss,0.3719792286152007,4.01
+3_Linear_GoldenFeatures,Linear,logloss,0.45383690572781554,7.91
+6_Default_RandomForest_GoldenFeatures_RandomFeature,Random Forest,logloss,0.36998940617372544,7.24
+6_Default_RandomForest_GoldenFeatures_SelectedFeatures,Random Forest,logloss,0.36032402290541077,2.95
+4_Default_Xgboost_GoldenFeatures_SelectedFeatures,Xgboost,logloss,0.34653552373465496,2.34
+5_Default_NeuralNetwork_SelectedFeatures,Neural Network,logloss,0.46625871385900214,2.4
+Ensemble,Ensemble,logloss,0.32302054691532134,2.28

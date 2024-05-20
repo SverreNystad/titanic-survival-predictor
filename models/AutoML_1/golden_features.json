@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "Pclass",
+            "feature2": "Parch",
+            "operation": "ratio",
+            "score": 0.6423133217
+        },
+        {
+            "feature1": "Parch",
+            "feature2": "Pclass",
+            "operation": "ratio",
+            "score": 0.6581832408
+        },
+        {
+            "feature1": "Parch",
+            "feature2": "Pclass",
+            "operation": "sum",
+            "score": 0.6591552935
+        },
+        {
+            "feature1": "Pclass",
+            "feature2": "Parch",
+            "operation": "diff",
+            "score": 0.6839901846
+        },
+        {
+            "feature1": "Age",
+            "feature2": "Pclass",
+            "operation": "multiply",
+            "score": 0.7037922025
+        },
+        {
+            "feature1": "Parch",
+            "feature2": "Age",
+            "operation": "multiply",
+            "score": 0.7040006599
+        },
+        {
+            "feature1": "Parch",
+            "feature2": "SibSp",
+            "operation": "ratio",
+            "score": 0.7183127594
+        },
+        {
+            "feature1": "SibSp",
+            "feature2": "Parch",
+            "operation": "ratio",
+            "score": 0.8051594341
+        },
+        {
+            "feature1": "Age",
+            "feature2": "SibSp",
+            "operation": "diff",
+            "score": 0.8220688004
+        },
+        {
+            "feature1": "Parch",
+            "feature2": "Age",
+            "operation": "sum",
+            "score": 0.8345753147
+        }
+    ],
+    "new_columns": [
+        "Pclass_ratio_Parch",
+        "Parch_ratio_Pclass",
+        "Parch_sum_Pclass",
+        "Pclass_diff_Parch",
+        "Age_multiply_Pclass",
+        "Parch_multiply_Age",
+        "Parch_ratio_SibSp",
+        "SibSp_ratio_Parch",
+        "Age_diff_SibSp",
+        "Parch_sum_Age"
+    ],
+    "ml_task": "binary_classification"
+}
