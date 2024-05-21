@@ -20,6 +20,10 @@ def engineer_features(features: pd.DataFrame) -> pd.DataFrame:
     features.loc[features['relatives'] == 0, 'traveled_alone'] = 'Yes'
     return features
 
+def _remove_unwanted_columns(features: pd.DataFrame) -> pd.DataFrame:
+    features = features.drop(["PassengerId","Name","Ticket"], axis=1)
+    return features
+
 def _add_family_size_feature(features: pd.DataFrame) -> pd.DataFrame:
     features['FamilySize'] = features['SibSp'] + features['Parch'] + 1
     
